@@ -1,0 +1,235 @@
+#body{
+    margin: 0px;
+
+}
+#header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    display: flex;
+width: 100%;
+height: 60px;}
+ h6{
+    font-size: 20px;
+    padding-left: 10px;
+ }   
+
+
+li{  color: black;
+ display: inline-flex;
+font-size: 15px;
+
+border-radius: 10px;
+padding: 5px 10px;
+margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.sub-btn{
+    gap: 10px;
+    text-align: end;
+}
+.sub-btn{
+  
+    font-size: 20px;
+    background-color:rgb(42, 144, 133);
+    color: white;
+    border-radius: 20px;
+margin-left: 30px}
+#section{
+    background-color:rgb(32, 35, 35);
+    height: auto;
+    width: 100%;
+}
+.mid-sec{
+    color: white;
+    text-align: center;
+}
+h5{
+    font-size: 13px;
+    background-color: rgba(213, 213, 213, 0.916);
+    width: 13%;
+padding-top: 10px;
+padding-bottom:10px;
+border-radius: 20px;
+color: rgb(42, 144, 133);
+
+}
+p{
+    font-size: 30px;
+    margin-top: -13px;
+}
+h1{
+    font-size: 10px;
+        margin-top: -22px;
+    
+}
+.boxes{
+display: flex;
+align-items: center;
+margin-top: -20px;
+ text-align:center ;
+ justify-content: center;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{ align-items: center;
+  background-color: rgb(61, 65, 64);
+  margin: 15px;
+padding: -5px 15px;
+  color:rgb(37, 121, 114) ;
+  border-radius: 10px;
+
+}
+.boxes h2{
+    font-size: 40px;
+    
+}
+.boxes p{
+    font-size: 20px;
+margin-top:-35px;
+}
+.offer{background-color: white;
+ padding-top: 20px;
+ text-align: center;
+}
+nav h1{
+    background-color: rgb(184, 239, 235);
+    color: rgb(37, 121, 114);
+    width: 50px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+nav p{
+    font-size: 20px;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        /* The container holding all three card columns */
+        .gallery-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            
+        }
+
+        /* Styling for each individual column/card */
+        .card {
+            flex: 1;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding-bottom: 15px;
+            text-align: center;
+            text-decoration-color: rgb(40, 145, 77);
+            
+        }
+
+        /* Ensures the images scale perfectly inside the card */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+     
+        .card h3 {
+        color: palegreen
+            font-size:40px
+            margin: 15px 10px 10px 10px;
+        
+        }
+
+  
+        .card p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #666666;
+            padding: 0 15px;
+            margin-bottom: 10px;
+        }
+        .latest{
+            background-color: rgb(238, 238, 238);
+            padding: 20px 10px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        nav h3{
+            font-size: 40px;
+            font-weight: 100px; 
+            margin-top: -2px;
+        }
+        .view{
+            background-color: rgb(37, 121, 114);
+          color: white;
+            box-sizing: 20px;
+            font-size: 10px;
+            padding: 10px 5px;
+            margin-top: 30px;
+            width: 30%;
+            align-items: center;
+          transition: color 2s;
+          
+        }
+        .view :hover{
+            color: red;
+        }
+        .black-box{
+            background-color: rgb(31, 31, 31);
+            padding: 10px;
+            margin-top: 20px;
+        }
+.announcement-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns like the image */
+  gap: 20px;
+  background-color: #0d1117; /* Dark background */
+  padding: 40px;
+}
+
+.pak {
+  background-color: #161b22; /* Card color */
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 24px;
+  color: white;
+  text-align: left;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #58a6ff; /* Icon color */
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+p {
+  color: #8b949e;
+  line-height: 1.5;
+}
+
+
+        @media screen and (max-width: 768px) {
+            .gallery-container {
+                flex-direction: column;
+            }
+
+
